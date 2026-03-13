@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interested in TCG Consulting Services</title>
+  <meta name="description" content="Tell us about your project and let's scope an engagement together." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="page-content">
+
+    <!-- ── Page Hero ──────────────────────────────────────────── -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="section-label">Get Started</p>
+        <h1>Interested in TCG Consulting Services</h1>
+        <p>Tell us about your problem. We'll respond within a few business days to set up a quick intro call.</p>
+      </div>
+    </section>
+
+    <!-- ── Contact Section ────────────────────────────────────── -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Left: what happens next -->
+          <div class="contact-left">
+            <h2>What happens next</h2>
+            <p>
+              No lengthy RFPs or formal pitches required. Just tell us what you're working on,
+              the challenge you're facing, and roughly when you'd need support. We'll take it from there.
+            </p>
+            <div class="next-steps">
+              <div class="next-step">
+                <div class="next-step-num">1</div>
+                <div class="next-step-text">
+                  <h5>Submit this form</h5>
+                  <p>Short intake — takes about 3 minutes.</p>
+                </div>
+              </div>
+              <div class="next-step">
+                <div class="next-step-num">2</div>
+                <div class="next-step-text">
+                  <h5>Quick intro call</h5>
+                  <p>We'll reach out within a few business days to schedule a 20–30 min conversation.</p>
+                </div>
+              </div>
+              <div class="next-step">
+                <div class="next-step-num">3</div>
+                <div class="next-step-text">
+                  <h5>Scope &amp; team match</h5>
+                  <p>We define the engagement together and match you with the right team.</p>
+                </div>
+              </div>
+              <div class="next-step">
+                <div class="next-step-num">4</div>
+                <div class="next-step-text">
+                  <h5>Weekly updates + final deliverables</h5>
+                  <p>Regular check-ins throughout the semester, ending with polished outputs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: form -->
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form" novalidate>
+
+              <div class="form-two-col">
+                <div class="form-row">
+                  <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" name="first-name" placeholder="Jane" required />
+                </div>
+                <div class="form-row">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" id="last-name" name="last-name" placeholder="Smith" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+              </div>
+
+              <div class="form-row">
+                <label for="org">Organization / Company</label>
+                <input type="text" id="org" name="org" placeholder="Your company or project name" required />
+              </div>
+
+              <div class="form-row">
+                <label for="org-type">Organization Type</label>
+                <select id="org-type" name="org-type">
+                  <option value="" disabled selected>Select one</option>
+                  <option value="startup">Startup</option>
+                  <option value="nonprofit">Nonprofit / Social Enterprise</option>
+                  <option value="research">Research Lab / University</option>
+                  <option value="smb">Small / Mid-Size Business</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="work-type">Type of Work Needed</label>
+                <select id="work-type" name="work-type">
+                  <option value="" disabled selected>Select one</option>
+                  <option value="strategy">Strategy &amp; Market Research</option>
+                  <option value="analytics">Analytics &amp; Reporting</option>
+                  <option value="engineering">Product &amp; Engineering</option>
+                  <option value="ops">Operational Strategy</option>
+                  <option value="unsure">Not sure — happy to discuss</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="challenge">Tell us about your challenge</label>
+                <textarea id="challenge" name="challenge" placeholder="Describe the problem you're trying to solve, the context, and what a great outcome looks like. The more specific, the better." required></textarea>
+              </div>
+
+              <div class="form-row">
+                <label for="timeline">Rough Timeline</label>
+                <select id="timeline" name="timeline">
+                  <option value="" disabled selected>When do you need this?</option>
+                  <option value="asap">As soon as possible</option>
+                  <option value="this-semester">This semester (Spring '26)</option>
+                  <option value="fall">Fall 2026</option>
+                  <option value="flexible">Flexible / just exploring</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit">Submit Your Interest</button>
+              <p class="form-note">We typically respond within 2–3 business days.</p>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /.page-content -->
+
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
