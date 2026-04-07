@@ -3,6 +3,7 @@
    Main JavaScript
    ============================================================ */
 
+
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ── Active Nav Link ──────────────────────────────────────── */
@@ -101,16 +102,5 @@ document.addEventListener('DOMContentLoaded', () => {
     fadeEls.forEach(el => el.classList.add('visible'));
   }
 
-  /* ── Contact Form ─────────────────────────────────────────── */
-  const form = document.getElementById('contact-form');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const btn = form.querySelector('.form-submit');
-      btn.textContent = 'Submitted — We\'ll be in touch!';
-      btn.style.background = '#2a6e3f';
-      btn.disabled = true;
-    });
-  }
 
 });

@@ -8,7 +8,7 @@
 <nav id="navbar" role="navigation" aria-label="Main navigation">
   <div class="container">
     <a href="index.html" class="nav-logo" style="display:flex; align-items:center; gap:12px;">
-        <img src="assets/logo.jpg" alt="TCG" style="height:38px; width:auto;" />
+        <img src="assets/logo.png" alt="TCG" style="height:84px; width:auto; filter: brightness(0) invert(1);" />
         <span style="font-family: var(--font-display); font-weight:700; font-size:14px; letter-spacing:0.04em; text-transform:uppercase; color:var(--white); line-height:1.2;">Technology<br/>Consulting Group</span>
     </a>
     <ul class="nav-links">
@@ -16,7 +16,7 @@
       <li><a href="what-we-do.html">What We Do</a></li>
       <li><a href="clients-projects.html">Clients &amp; Projects</a></li>
       <li><a href="board.html">Board</a></li>
-      <li><a href="contact.html" class="nav-cta">Interested in TCG Services</a></li>
+      <li><a href="contact.html" class="nav-cta">Work With Us</a></li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -28,14 +28,14 @@
   <a href="what-we-do.html">What We Do</a>
   <a href="clients-projects.html">Clients &amp; Projects</a>
   <a href="board.html">Board</a>
-  <a href="contact.html" class="mobile-cta">Interested in TCG Services</a>
+  <a href="contact.html" class="mobile-cta">Work With Us</a>
 </nav>`;
 
   const FOOTER_HTML = `
 <footer>
   <div class="container">
     <div class="footer-inner">
-      <img src="assets/logo.jpg" alt="TCG" style="height:28px; width:auto; opacity:0.7;" />
+      <img src="assets/logo.png" alt="TCG" style="height:28px; width:auto; opacity:0.7;" />
       <span class="footer-copy">© 2026 Technology Consulting Group @ Georgia Tech</span>
       <ul class="footer-links">
         <li><a href="what-we-do.html">What We Do</a></li>
