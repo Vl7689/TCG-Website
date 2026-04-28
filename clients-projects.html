@@ -9,11 +9,11 @@
 <body>
   <div class="page-content">
 
-    <section class="page-hero">
+    <section class="page-hero page-hero--compact">
       <div class="container">
         <p class="section-label">Portfolio</p>
         <h1>Clients &amp; Projects</h1>
-        <p>Select a partner to view scope, deliverables, and engagement details. Spring 2026 cohort.</p>
+        <p>Spring 2026 cohort — select a client to view scope, deliverables, and engagement details.</p>
       </div>
     </section>
 
@@ -21,17 +21,25 @@
       <div class="container">
 
         <div class="project-tabs" role="tablist">
-          <button class="tab-btn" role="tab" data-tab="infinite-giving" id="tab-infinite-giving">Infinite Giving</button>
-          <button class="tab-btn" role="tab" data-tab="cryobio" id="tab-cryobio">CryoBio</button>
-          <button class="tab-btn" role="tab" data-tab="optidrop" id="tab-optidrop">OptiDrop</button>
+          <button class="tab-btn" role="tab" data-tab="infinite-giving" id="tab-infinite-giving">
+            <span class="tab-dot" style="background:#10B981;"></span>Infinite Giving
+          </button>
+          <button class="tab-btn" role="tab" data-tab="cryobio" id="tab-cryobio">
+            <span class="tab-dot" style="background:#3B82F6;"></span>CryoBio
+          </button>
+          <button class="tab-btn" role="tab" data-tab="optidrop" id="tab-optidrop">
+            <span class="tab-dot" style="background:#F59E0B;"></span>OptiDrop
+          </button>
         </div>
 
+        <!-- ── Infinite Giving ── -->
         <div class="tab-panel" id="infinite-giving" role="tabpanel">
           <div class="project-detail">
             <div class="project-detail-left">
-              <p class="section-label">Client — Strategy</p>
+              <div class="client-logo-img"><img src="assets/InfiniteGiving.jpg" alt="Infinite Giving" /></div>
+              <p class="section-label">Strategy · Spring 2026</p>
               <h2>Infinite Giving</h2>
-              <p class="project-overview">Infinite Giving is a nonprofit fundraising platform focused on democratizing donor engagement. TCG supported their pricing strategy, top-of-funnel development, and built the reporting infrastructure needed to communicate progress at the board level.</p>
+              <p class="project-overview">Nonprofit fundraising platform focused on democratizing donor engagement. TCG supported pricing strategy, top-of-funnel development, and the reporting infrastructure needed to communicate progress at the board level.</p>
               <div class="detail-tags">
                 <span class="tag">Strategy</span>
                 <span class="tag">Research</span>
@@ -43,13 +51,15 @@
               </div>
             </div>
             <div class="project-detail-right">
-              <h3>What We Worked On</h3>
-              <ul class="work-list">
-                <li>Developed pricing strategy and top-of-funnel framework for donor acquisition</li>
-                <li>Conducted board expectation research to align stakeholder priorities</li>
-                <li>Built quarterly board-ready reporting structure with key metrics</li>
-                <li>Provided executive communications support for leadership team</li>
-              </ul>
+              <div class="detail-right-section">
+                <h3>What We Worked On</h3>
+                <ul class="work-list">
+                  <li>Developed pricing strategy and top-of-funnel framework for donor acquisition</li>
+                  <li>Conducted board expectation research to align stakeholder priorities</li>
+                  <li>Built quarterly board-ready reporting structure with key metrics</li>
+                  <li>Provided executive communications support for leadership team</li>
+                </ul>
+              </div>
               <div class="deliverables-box">
                 <h4>Key Deliverables</h4>
                 <ul>
@@ -63,12 +73,14 @@
           </div>
         </div>
 
+        <!-- ── CryoBio ── -->
         <div class="tab-panel" id="cryobio" role="tabpanel">
           <div class="project-detail">
             <div class="project-detail-left">
-              <p class="section-label">Client — Market Research</p>
+              <div class="client-logo-img"><img src="assets/cryobio logo.jpg" alt="CryoBio" /></div>
+              <p class="section-label">Market Research · Spring 2026</p>
               <h2>CryoBio</h2>
-              <p class="project-overview">CryoBio is an early-stage biotech company developing cryogenic solutions for agriculture. TCG delivered a comprehensive market intelligence package to support their fundraising and go-to-market strategy.</p>
+              <p class="project-overview">Early-stage biotech developing cryogenic solutions for agriculture. TCG delivered a comprehensive market intelligence package to support fundraising and go-to-market strategy.</p>
               <div class="detail-tags">
                 <span class="tag">Market Research</span>
                 <span class="tag">WTP Analysis</span>
@@ -80,14 +92,16 @@
               </div>
             </div>
             <div class="project-detail-right">
-              <h3>What We Worked On</h3>
-              <ul class="work-list">
-                <li>Quantified frost damage across target agricultural regions and crop verticals</li>
-                <li>Identified product-market fit regions and highest-priority crops</li>
-                <li>Conducted willingness-to-pay benchmarking against comparable solutions</li>
-                <li>Mapped regulatory and policy considerations for cryogenic ag-tech</li>
-                <li>Synthesized findings into investor-ready market insights package</li>
-              </ul>
+              <div class="detail-right-section">
+                <h3>What We Worked On</h3>
+                <ul class="work-list">
+                  <li>Quantified frost damage across target agricultural regions and crop verticals</li>
+                  <li>Identified product-market fit regions and highest-priority crops</li>
+                  <li>Conducted willingness-to-pay benchmarking against comparable solutions</li>
+                  <li>Mapped regulatory and policy considerations for cryogenic ag-tech</li>
+                  <li>Synthesized findings into investor-ready market insights package</li>
+                </ul>
+              </div>
               <div class="deliverables-box">
                 <h4>Key Deliverables</h4>
                 <ul>
@@ -101,12 +115,14 @@
           </div>
         </div>
 
+        <!-- ── OptiDrop ── -->
         <div class="tab-panel" id="optidrop" role="tabpanel">
           <div class="project-detail">
             <div class="project-detail-left">
-              <p class="section-label">Client — Engineering</p>
+              <div class="client-logo-img"><img src="assets/optidrop.png" alt="OptiDrop" /></div>
+              <p class="section-label">Engineering · Spring 2026</p>
               <h2>OptiDrop</h2>
-              <p class="project-overview">OptiDrop is a precision agriculture hardware startup developing targeted crop delivery systems. TCG provided hands-on mechanism design, prototyping support, and a rigorous actuation strategy evaluation.</p>
+              <p class="project-overview">Precision agriculture hardware startup developing targeted crop delivery systems. TCG provided hands-on mechanism design, prototyping support, and a rigorous actuation strategy evaluation.</p>
               <div class="detail-tags">
                 <span class="tag">Engineering</span>
                 <span class="tag">Product</span>
@@ -118,13 +134,15 @@
               </div>
             </div>
             <div class="project-detail-right">
-              <h3>What We Worked On</h3>
-              <ul class="work-list">
-                <li>Researched and scoped mechanism design options for precision delivery</li>
-                <li>Supported prototyping and CAD iteration cycles</li>
-                <li>Evaluated actuation strategy alternatives with comparative tradeoffs</li>
-                <li>Documented engineering tradeoffs for internal roadmap decisions</li>
-              </ul>
+              <div class="detail-right-section">
+                <h3>What We Worked On</h3>
+                <ul class="work-list">
+                  <li>Researched and scoped mechanism design options for precision delivery</li>
+                  <li>Supported prototyping and CAD iteration cycles</li>
+                  <li>Evaluated actuation strategy alternatives with comparative tradeoffs</li>
+                  <li>Documented engineering tradeoffs for internal roadmap decisions</li>
+                </ul>
+              </div>
               <div class="deliverables-box">
                 <h4>Key Deliverables</h4>
                 <ul>
@@ -147,7 +165,7 @@
         <h2>Ready to bring TCG onto your project?</h2>
         <p>We take on a new cohort of clients each semester. Reach out early.</p>
         <div class="cta-actions">
-          <a href="contact.html" class="btn btn-primary">Interested in TCG Consulting Services</a>
+          <a href="contact.html" class="btn btn-primary">Work With Us</a>
         </div>
       </div>
     </section>

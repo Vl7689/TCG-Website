@@ -15,7 +15,6 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="what-we-do.html">What We Do</a></li>
       <li><a href="clients-projects.html">Clients &amp; Projects</a></li>
-      <li><a href="board.html">Board</a></li>
       <li><a href="contact.html" class="nav-cta">Work With Us</a></li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -27,7 +26,6 @@
   <a href="index.html">Home</a>
   <a href="what-we-do.html">What We Do</a>
   <a href="clients-projects.html">Clients &amp; Projects</a>
-  <a href="board.html">Board</a>
   <a href="contact.html" class="mobile-cta">Work With Us</a>
 </nav>`;
 
@@ -40,7 +38,6 @@
       <ul class="footer-links">
         <li><a href="what-we-do.html">What We Do</a></li>
         <li><a href="clients-projects.html">Projects</a></li>
-        <li><a href="board.html">Board</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
