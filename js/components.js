@@ -15,6 +15,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="what-we-do.html">What We Do</a></li>
       <li><a href="clients-projects.html">Clients &amp; Projects</a></li>
+      <li><a href="apply.html">Join TCG</a></li>
       <li><a href="contact.html" class="nav-cta">Work With Us</a></li>
     </ul>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -26,18 +27,20 @@
   <a href="index.html">Home</a>
   <a href="what-we-do.html">What We Do</a>
   <a href="clients-projects.html">Clients &amp; Projects</a>
-  <a href="contact.html" class="mobile-cta">Work With Us</a>
+  <a href="apply.html">Join TCG <span style="font-size:11px;opacity:0.55;font-weight:500;text-transform:none;letter-spacing:0;">— for students</span></a>
+  <a href="contact.html" class="mobile-cta">Work With Us <span style="font-size:11px;opacity:0.7;font-weight:500;text-transform:none;letter-spacing:0;">— for startups &amp; orgs</span></a>
 </nav>`;
 
   const FOOTER_HTML = `
 <footer>
   <div class="container">
     <div class="footer-inner">
-      <img src="assets/logo.png" alt="TCG" style="height:28px; width:auto; opacity:0.7;" />
+      <img src="assets/logo.png" alt="TCG" style="height:48px; width:auto; opacity:0.85;" />
       <span class="footer-copy">© 2026 Technology Consulting Group @ Georgia Tech</span>
       <ul class="footer-links">
         <li><a href="what-we-do.html">What We Do</a></li>
         <li><a href="clients-projects.html">Projects</a></li>
+        <li><a href="apply.html">Join TCG</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>

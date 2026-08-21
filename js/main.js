@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => activateTab(btn.dataset.tab));
   });
 
-  /* Deep-link support: /clients-projects.html#infinite-giving */
+  /* Deep-link support: /clients-projects.html#cryobio */
   if (tabBtns.length > 0) {
     const hash = window.location.hash.replace('#', '');
     const matchingTab = document.getElementById(hash);
